@@ -1,3 +1,4 @@
+
 House Price Prediction Model
 
 Welcome to the House Price Prediction project! This project uses Linear Regression to predict house prices based on various factors such as:
@@ -9,8 +10,23 @@ Welcome to the House Price Prediction project! This project uses Linear Regressi
     Area Population
 
 The model is trained on a real-world dataset of housing prices in the USA, and the trained model is saved for future use.
-                    
+📂 Project Structure
 
+The project structure looks like this:
+
+house-price-prediction-model/
+│
+├── dataset/
+│   └── USA_Housing.csv         
+│
+├── model/
+│   └── _model.pkl               
+│
+├── main/
+│   └── prediction_model.py      
+│
+├── README.md                   
+└── requirements.txt             
 🛠 Requirements
 
 To run the project, you'll need Python 3.x and the following dependencies:
@@ -96,9 +112,4 @@ predicted_price = model.predict(sample_data)
 print(f"Predicted house price: ${predicted_price[0]:,.2f}")
 
 This code loads the saved model and uses it to predict the price of a house based on sample input data.
-
-    Linear Regression: For building the predictive model.
-    Scikit-learn: For providing the tools needed to train and evaluate the model.
-    Pandas: For data manipulation and handling.
-
-By using this REA
+💡 Contributing
